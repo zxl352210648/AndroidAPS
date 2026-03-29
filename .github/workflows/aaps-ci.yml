@@ -61,7 +61,7 @@ jobs:
     MISSING=0
 
     check_secret() {
-      if [ -z "$1" ]; then
+    if [ -z "$1" ]; then
         echo "❌ Missing secret: $2"
         MISSING=1
       fi
